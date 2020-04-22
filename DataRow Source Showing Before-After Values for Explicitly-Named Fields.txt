@@ -1,0 +1,73 @@
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2175}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2175#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2175}')
+AND WFH_Version = 1 AND {WFCONCOL:2175} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2175#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL_NAME:2181}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL_NAME:2181#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2181}')
+AND WFH_Version = 1 AND {WFCONCOL:2181} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2181#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2187}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2187#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2187}')
+AND WFH_Version = 1 AND {WFCONCOL:2187} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2187#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2185}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2185#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2185}')
+AND WFH_Version = 1 AND {WFCONCOL:2185} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2185#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2260}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2260#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2260}')
+AND WFH_Version = 1 AND {WFCONCOL:2260} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2260#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2261}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2261#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2261}')
+AND WFH_Version = 1 AND {WFCONCOL:2261} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2261#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2211}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2211#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2211}')
+AND WFH_Version = 1 AND {WFCONCOL:2211} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2211#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, CAST({WFCONCOL:2170} AS NVARCHAR(max)), CAST({BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2170#" /></ps></xps>} AS NVARCHAR(max))
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2170}')
+AND WFH_Version = 1 AND CAST({WFCONCOL:2170} AS NVARCHAR(max)) <> CAST({BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2170#" /></ps></xps>} AS NVARCHAR(max))
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2205}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2205#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2205}')
+AND WFH_Version = 1 AND {WFCONCOL:2205} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2205#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2174}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2174#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2174}')
+AND WFH_Version = 1 AND {WFCONCOL:2174} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2174#" /></ps></xps>}
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2210}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2210#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2210}')
+AND WFH_Version = 1 AND {WFCONCOL:2210} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2210#" /></ps></xps>}
+AND '{BRD:853}' = 'true'
+UNION
+SELECT TOP 1 WFCON_Prompt, {WFCONCOL:2202}, {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2202#" /></ps></xps>}
+FROM WFElements, WFHistoryElements, WFDefinitions, WFConfigurations,  WFFieldDefinitions 
+WHERE WFD_ID = WFH_OrgID AND DEF_ID = WFCON_DEFID AND FDEF_ID = WFCON_FDEFID
+AND (DEF_ID = {DEF_ID}) AND (WFD_ID = {WFD_ID}) AND (FDEF_Name = '{WFCONCOL:2202}')
+AND WFH_Version = 1 AND {WFCONCOL:2202} <> {BRD:1040:<xps><ps><p id="#BRP:52#" v="#WFCONCOL:2202#" /></ps></xps>}
+AND '{BRD:853}' = 'true'
