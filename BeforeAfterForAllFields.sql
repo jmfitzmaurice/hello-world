@@ -38,7 +38,6 @@ SELECT FieldName, OldValue, NewValue
 FROM #results
 WHERE OldValue != NewValue
 
-
 DROP TABLE #results
 DROP TABLE #cmds
 SET NOCOUNT OFF
